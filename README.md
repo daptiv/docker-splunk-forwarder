@@ -6,3 +6,5 @@ http://docs.splunk.com/Documentation/Forwarder/6.4.2/Forwarder/Howtoforwarddatat
 
 Usage:
 Docker build --build-arg SPLUNK_URL=deploymentserver.splunk.mycompany.com --build-arg SPLUNK_PORT=8089
+
+This forwarder is configured to listen on UDP port 50333 as a demonstration
